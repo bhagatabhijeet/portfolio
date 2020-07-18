@@ -1,0 +1,18 @@
+body{
+    background-color: #31355a;
+}
+img{
+    /* border: 1px whitesmoke solid; */
+}
+#logo{
+    float: left;
+    width:45px;
+    height: 100%;
+}
+
+.head-name{
+    color: white;
+    font-family: 'Asap Condensed', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: large;  
+}
