@@ -9,43 +9,66 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Orbitron:wght@900&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Orbitron:wght@900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/my.css" type="text/css" />
-    <link rel="icon" type="image/png" href="assets/logo-inverse.png"/> <!--favicon-->
-    <title>Abhijeet Bhagat|Software Engineer</title> 
+    <link rel="icon" type="image/png" href="assets/logo-inverse.png" />
+    <!--favicon-->
+    <title>Abhijeet Bhagat|Software Engineer</title>
+
 </head>
 
-<body>   
-     <!-- topnav and customizations -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-        <a class="navbar-brand" href="#"><img src="assets/logo-inverse.png" alt="Abhijeet Bhagat" id="logo" height="10px"></a>
+<body>
+    <!-- topnav and customizations -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark nav-custom">
+        <a class="navbar-brand" href="#">
+            <div id="logodiv">
+                <img src="assets/logo-inverse.png" alt="Abhijeet Bhagat" id="logo" height="10px">
+            </div>
+        </a>
         <div class="head-name">ABHIJEET</div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">               
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item" active>
-                    <a class="nav-link" href="#"><img src="assets/cust-bulltet.png" class="menuitem" height="10"/> About</a>
+                    <a class="nav-link" href="about.html"><img src="assets/cust-bulltet.png" class="menuitem"
+                            height="10" /><span> About</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="assets/cust-bulltet.png" class="menuitem" height="10"/> Portfolio</a>
-                </li>                
+                    <a class="nav-link" href="#"><img src="assets/cust-bulltet.png" class="menuitem"
+                            height="10" /><span> Portfolio</span>
+                    </a>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="assets/cust-bulltet.png" class="menuitem" height="10"/> Contact</a>
+                    <a class="nav-link" href="#"><img src="assets/cust-bulltet.png" class="menuitem"
+                            height="10" /><span> Contact</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <!--Resume link disabled using disabled class-->
+                    <a class="nav-link disabled" href="#">
+                        <img src="assets/cust-bulltet.png" class="menuitem" height="10" />
+                        <span class="mydisabled"> Resume</span>
+                    </a>
                 </li>
             </ul>
         </div>
     </nav>
-     <!-- topnav and customizations-END -->
-    <div class="container"> <!--container Start-->
-       
-    </div> <!--container end-->
-    <h1>Hello, world!</h1>
+    <!-- topnav and customizations-END -->
+    <div class="container">
+     
+    </div>
+    </section>
+    </div>
+    <!--container end-->
+    <footer></footer>
 
 
     <!-- Optional JavaScript -->
@@ -59,6 +82,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <!-- disabled script tag for future use -->
+    <!-- <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>     -->
 </body>
 
 </html>

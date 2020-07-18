@@ -1,8 +1,24 @@
 body{
     background-color: #31355a;
+    color:#8892b0;
+    font-size: 20px;;
+    
 }
-img{
-    /* border: 1px whitesmoke solid; */
+
+li span{
+    transition: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: 100ms;
+    color:wheat;
+}
+
+.mydisabled{
+    color:gray;
+}
+
+li span:hover{    
+    font-size: 23px;
+    color:#8080ff;
 }
 #logo{
     float: left;
@@ -11,8 +27,23 @@ img{
 }
 
 .head-name{
-    color: white;
+    color: wheat;
     font-family: 'Asap Condensed', sans-serif;
     letter-spacing: 0.1rem;
-    font-size: large;  
+    font-size:x-large;  
+    transition-timing-function: ease-in-out;
+    transition-duration: 100ms;
 }
+
+.head-name:hover{
+    color: #8080ff;    
+}
+.nav-custom{
+    /* background-color: #31355f; */
+    background-image: linear-gradient(#31355f,#31355a);
+    /* color: wheat; */
+}
+.luminous{
+    color: wheat;
+}
+
