@@ -65,6 +65,11 @@ li span:hover{
     color: wheat;
 }
 
+.primary-title{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px; 
+    color:whitesmoke;
+}
 .secondary-title{
     color:#ccd6f6;
     font-size: 55px;
