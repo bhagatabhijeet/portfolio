@@ -13,9 +13,11 @@
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Orbitron:wght@900&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <!-- my custom CSS -->
     <link rel="stylesheet" href="styles/my.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/images.css" />
     <link rel="icon" type="image/png" href="assets/logo-inverse.png" />
 
@@ -72,25 +74,37 @@
     <!-- topnav and customizations-END -->
 
     <div class="container">
-        <main>
-            <div class="luminous" style="margin-top: 100px;">Hi, my name is</div>
-            <div style="font-family: 'Asap Condensed', sans-serif; font-size: 60px; color:whitesmoke">Abhijeet
-                Bhagat.
+        <div class="row">
+            <div class="col-lg">
+                <main>
+                    <div class="luminous" style="margin-top: 100px;">Hi, my name is</div>
+                    <div style="font-family: 'Asap Condensed', sans-serif; font-size: 60px; color:whitesmoke">
+                        Abhijeet
+                        Bhagat.
+                    </div>
+                    <div class="secondary-title">I build web applications.</div>
+                    <main>
+                        I'm a software engineer based in Dublin, CA.
+                        I am a <em>Full Stack Developer</em>, I build & design websites and web applications.
+                        I build, test and deploy applications.
+                    </main>
+                    <div id="contactmebtn">
+                        <button type="button" class="btn btn-outline-primary btn-lg">Get In Touch</button>
+                    </div>
+                </main>
             </div>
-            <div class="secondary-title">I build web applications.</div>
-            <main>
-                I'm a software engineer based in Dublin, CA.
-                I am a <em>Full Stack Developer</em>, I build & design websites and web applications.
-                I build, test and deploy applications.
-            </main>
-            <div id="contactmebtn">
-                <button type="button" class="btn btn-outline-primary btn-lg">Contact me.</button>
-            </div>
-        </main>
+        </div>
+
     </div>
     <!--container end-->
 
     <div style="height:60px;"></div>
+    <section id="social-btns">
+        <button type="button" class="btn btn-outline-primary"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
+        <button type="button" class="btn btn-outline-primary"><i class="fa fa-github" aria-hidden="true"></i></button>
+        <!-- <button type="button" class="btn btn-outline-primary"><img src="assets/hackerrank_logo.png" height="20px" 
+                width="20px" /></button>-->
+    </section>
     <footer class="luminous" id="mainfooter">
         <span>Designed and Built by Abhijeet Bhagat</span>
         <div>&copy; Abhijeet Bhagat
@@ -120,9 +134,10 @@
             $('.container').fadeIn(3000);
             $('#mainfooter').fadeOut(1000);
             $('#mainfooter').fadeIn(2000);
+            $('#social-btns').css('display','flex');            
 
             document.getElementById("contactmebtn").onclick = function () {
-            location.href = "contact.html";
+                location.href = "contact.html";
             };
         });
     </script>
