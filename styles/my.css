@@ -136,6 +136,12 @@ footer{
    
 }
 
+.hr-luminous{
+    /* border-color:wheat; */
+    border-top:2px solid wheat;
+    /* height: 2px; */
+}
+
 
 footer div a{
     margin-left: 10px;
