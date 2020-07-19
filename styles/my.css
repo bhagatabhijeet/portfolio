@@ -6,9 +6,14 @@ body{
     
 }
 
-.container{
+#main-container{
     position: relative;      
     display: none;
+}
+
+.container{
+    position: relative;  
+  
 }
 .box{
     width: 40px;
