@@ -6,6 +6,18 @@ body{
     
 }
 
+.container{
+    position: relative;      
+    display: none;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border:wheat 1px solid;
+    background-color: slateblue;
+    margin: 5px;
+}
+
 li span{
     transition: font-size;
     transition-timing-function: ease-in-out;
@@ -74,18 +86,61 @@ main{
     justify-content:center;      
 }
 
+#social-btns button,#social-btns-main button{
+    margin:4px;
+    border: none;
+}
+
 footer{
     font-size: 13px;
     text-align: center;
-    /* position: fixed;    
-    bottom: 0; */
     width:100%;
-    margin-bottom: 20px;
-    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     height:30px;
 }
+
+/* footer for main page as it needs to be hidden at the start of anumation */
+#mainfooter{
+    font-size: 13px;
+    text-align: center;
+    width:100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    height:30px;
+    display: none;
+}
+
+#social-btns{
+    /* margin:auto; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content:center; 
+    flex-wrap: wrap;
+   
+}
+
+#social-btns-main{
+    /* margin:auto; */
+    display: none;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content:center; 
+    flex-wrap: wrap;
+   
+}
+
 
 footer div a{
     margin-left: 10px;
 }
 
+
+/* folloing selectors for bootstrap Grid */
+.top5 { margin-top:5%; }
+.top7 { margin-top:7%; }
+.top10 { margin-top:10%; }
+.top15 { margin-top:15%; }
+.top17 { margin-top:17%; }
+.top30 { margin-top:30%; }
