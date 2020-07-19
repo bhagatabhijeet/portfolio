@@ -16,10 +16,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/my.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/images.css" />
     <link rel="icon" type="image/png" href="assets/logo-inverse.png" />
+
     <!--favicon-->
     <title>Abhijeet Bhagat|Software Engineer</title>
-
 </head>
 
 <body>
@@ -69,27 +70,28 @@
         </div>
     </nav>
     <!-- topnav and customizations-END -->
-    <div class="container">
-        <!--container Start-->
-        <!--"font-family: 'Righteous', cursive;-->
-        <div class="luminous" style="margin-top: 100px;">Hi, my name is</div>
-        <div style="font-family: 'Asap Condensed', sans-serif; font-size: 60px; color:whitesmoke">Abhijeet Bhagat.</div>
-        <div class="secondary-title">I build web applications.</div>
-        <main>
-            I'm a software engineer based in Dublin, CA.
-            I am a <em>Full Stack Developer</em>, I build & design websites and web applications.
-            I build, test and deploy applications.
-        </main>
-        <div id="contactmebtn">
-            <button type="button" class="btn btn-outline-primary btn-lg">Contact me.</button>
-        </div>
 
-    </div>
-    </section>
+    <div class="container">
+        <main>
+            <div class="luminous" style="margin-top: 100px;">Hi, my name is</div>
+            <div style="font-family: 'Asap Condensed', sans-serif; font-size: 60px; color:whitesmoke">Abhijeet
+                Bhagat.
+            </div>
+            <div class="secondary-title">I build web applications.</div>
+            <main>
+                I'm a software engineer based in Dublin, CA.
+                I am a <em>Full Stack Developer</em>, I build & design websites and web applications.
+                I build, test and deploy applications.
+            </main>
+            <div id="contactmebtn">
+                <button type="button" class="btn btn-outline-primary btn-lg">Contact me.</button>
+            </div>
+        </main>
     </div>
     <!--container end-->
+
     <div style="height:60px;"></div>
-    <footer class="luminous">
+    <footer class="luminous" id="mainfooter">
         <span>Designed and Built by Abhijeet Bhagat</span>
         <div>&copy; Abhijeet Bhagat
             <a href="https://github.com/bhagatabhijeet/portfolio">
@@ -101,21 +103,25 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+    <script src="assets/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <!-- disabled script tag for future use -->
-    <!-- <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
+
+    <script>
+        $(document).ready(function () {
+            $('.container').fadeOut(1000);
+            $('.container').fadeIn(3000);
+            $('#mainfooter').fadeOut(1000);
+            $('#mainfooter').fadeIn(2000);
         });
-    </script>     -->
+    </script>
 </body>
 
 </html>
