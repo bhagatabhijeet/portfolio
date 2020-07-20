@@ -132,10 +132,11 @@ footer{
     width:100%;
     margin-bottom: 0px;
     margin-top: 10px;
-    height:40px;
+    height:60px;
     position: fixed;
     bottom: 0px;  
-    background-color: #0c0c0c;
+    background-color: #31355a;   
+    padding: 5px;  
 }
 
 /* footer for main page as it needs to be hidden at the start of anumation */
@@ -145,11 +146,20 @@ footer{
     width:100%;
     margin-bottom: 0px;
     margin-top: 10px;
-    height:40px;
+    height:60px;
     display: none;  
     position: fixed;
     bottom: 0px;  
-    background-color: #0c0c0c;
+    background-color: #31355a;   
+    padding: 5px;       
+}
+
+footer hr, #mainfooter hr{
+    width: 25%; 
+    size: 0.5px;
+    padding: 0px;
+    margin-top: 0px; 
+    border-color:#888692;
 }
 
 #social-btns{    
