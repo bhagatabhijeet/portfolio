@@ -23,6 +23,11 @@ article{
     position: relative;  
   
 }
+.jumbotron{
+    background: none;
+    border: 0.05px solid #888692; 
+    margin-bottom: 0em;   
+}
 .box{
     width: 40px;
     height: 40px;
@@ -68,10 +73,8 @@ li span:hover{
 .head-name:hover{
     color: #8080ff;    
 }
-.nav-custom{
-    /* background-color: #31355f; */
-    background-image: linear-gradient(#31355f,#31355a);
-    /* color: wheat; */
+.nav-custom{    
+    background-image: linear-gradient(#31355f,#31355a);    
 }
 .luminous{
     color: cyan;
@@ -90,8 +93,7 @@ li span:hover{
 }
 
 main{
-    margin-top: 40px;
-    /* width:50%;     */
+    margin-top: 4opx;    
 }
 .btn, .btn-outline-primary, .btn-lg {
     border-color: cyan !important;
@@ -115,7 +117,7 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 40px;
-    justify-content:center;      
+    justify-content:space-around;      
 }
 
 #social-btns button,#social-btns-main button{
@@ -143,18 +145,15 @@ footer{
     display: none;
 }
 
-#social-btns{
-    /* margin:auto; */
+#social-btns{    
     display: flex;
-    flex-direction: row;
-    margin-top: 40px;
+    flex-direction: row;    
     justify-content:center; 
     flex-wrap: wrap;
    
 }
 
-#social-btns-main{
-    /* margin:auto; */
+#social-btns-main{    
     display: none;
     flex-direction: row;
     margin-top: 40px;
@@ -163,10 +162,8 @@ footer{
    
 }
 
-.hr-luminous{
-    /* border-color:wheat; */
-    border-top:1px solid cyan;
-    /* height: 2px; */
+.hr-luminous{    
+    border-top:1px solid cyan;    
 }
 
 
