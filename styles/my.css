@@ -3,6 +3,7 @@ body{
     color:#8892b0;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
     
 }
 article{
@@ -25,8 +26,8 @@ article{
 }
 .jumbotron{
     background: none;
-    border: 0.05px solid #888692; 
-    margin-bottom: 0em;   
+    border: 0.05px solid #888692;  
+    padding-bottom: 10px;   
 }
 .box{
     width: 40px;
@@ -129,9 +130,12 @@ footer{
     font-size: 13px;
     text-align: center;
     width:100%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 10px;
-    height:30px;
+    height:40px;
+    position: fixed;
+    bottom: 0px;  
+    background-color: #0c0c0c;
 }
 
 /* footer for main page as it needs to be hidden at the start of anumation */
@@ -139,10 +143,13 @@ footer{
     font-size: 13px;
     text-align: center;
     width:100%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 10px;
-    height:30px;
-    display: none;
+    height:40px;
+    display: none;  
+    position: fixed;
+    bottom: 0px;  
+    background-color: #0c0c0c;
 }
 
 #social-btns{    
@@ -156,7 +163,7 @@ footer{
 #social-btns-main{    
     display: none;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 5px;
     justify-content:center; 
     flex-wrap: wrap;
    
