@@ -18,10 +18,11 @@ Deployed Site Url : https://bhagatabhijeet.github.io/portfolio/index.html
   Previous iterations: None  
 </p>
 
-
-![demo](https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/AboutMe.png)
-![demo](https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/indexPage.png)
-![demo](https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/contactMe.png)
+<div align="center">
+<img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/AboutMe.png" alt="about me"/>
+<img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/indexPage.png" width="250px" height="300px" alt="index page"/>
+<img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/contactMe.png" width="250px" height="300px" alt="contact me page"/>
+</div> 
 
 
 ## Description :
