@@ -79,9 +79,9 @@
                     <img id="abhi" src="assets/Abhi.png" />
                     <!--scocial buttons-->
                     <section id="social-btns">
-                        <button type="button" class="btn btn-outline-primary"><i class="fa fa-linkedin"
+                        <button type="button" id="linkedinbtn" class="btn btn-outline-primary"><i class="fa fa-linkedin"
                                 aria-hidden="true"></i></button>
-                        <button type="button" class="btn btn-outline-primary"><i class="fa fa-github"
+                        <button type="button" id="githubbtn" class="btn btn-outline-primary"><i class="fa fa-github"
                                 aria-hidden="true"></i></button>
                         <!-- <button type="button" class="btn btn-outline-primary"><img src="assets/hackerrank_logo.png" height="20px" 
                 width="20px" /></button>-->
@@ -159,11 +159,11 @@
     </div>
     <!--container end-->
     <div style="height:60px;"></div>
-   
+
     <!--hack to add 40px to body so that contents behind sticky footer could be scrolled-->
     <!--footer-->
     <footer class="luminous">
-        <hr/>  
+        <hr />
         <span>Designed and Built by Abhijeet Bhagat</span>
         <div>&copy; Abhijeet Bhagat
             <a href="https://github.com/bhagatabhijeet/portfolio">
@@ -183,6 +183,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            document.getElementById("linkedinbtn").onclick = function () {
+                window.open("https://www.linkedin.com/in/abhijeetbhagat/");
+
+            };
+            document.getElementById("githubbtn").onclick = function () {
+                window.open("https://github.com/bhagatabhijeet");
+            };
+
+        });
+    </script>
 </body>
 
 </html>

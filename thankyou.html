@@ -2,27 +2,27 @@
 <html lang="en">
 
 <head>
-     <!-- Required meta tags -->
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
- 
-     <!-- Google fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Orbitron:wght@900&display=swap"
-         rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">    
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-     <!-- my custom CSS -->
-     <link rel="stylesheet" href="styles/my.css" type="text/css" />
-     <link rel="stylesheet" href="styles/images.css" />
-     <!--favicon-->
-     <link rel="icon" type="image/png" href="assets/logo-inverse.png" />
-     
-     <title>Abhijeet Bhagat|Software Engineer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&family=Orbitron:wght@900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- my custom CSS -->
+    <link rel="stylesheet" href="styles/my.css" type="text/css" />
+    <link rel="stylesheet" href="styles/images.css" />
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="assets/logo-inverse.png" />
+
+    <title>Abhijeet Bhagat|Software Engineer</title>
 </head>
 
 <body>
@@ -72,32 +72,34 @@
         <!--container Start-->
         <div class="row">
             <div class="col-md-6">
-                <main>                    
+                <main>
                     <div class="primary-title">
                         Thank You!
                     </div>
-                    <hr class= "hr-luminous"/>
+                    <hr class="hr-luminous" />
                     <div class="luminous" style="margin-top: 100px;">
                         Thanks a lot for contacting me. I will get in touch with you as soon as I can.
-                    </div>                    
+                    </div>
                 </main>
-            </div>            
+            </div>
         </div>
     </div>
     <!--container end-->
-    
+
 
     <div style="height:60px;"></div>
     <!--scocial buttons-->
     <section id="social-btns">
-        <button type="button" class="btn btn-outline-primary"><i class="fa fa-linkedin" aria-hidden="true"></i></button>
-        <button type="button" class="btn btn-outline-primary"><i class="fa fa-github" aria-hidden="true"></i></button>
+        <button type="button" id="linkedinbtn" class="btn btn-outline-primary"><i class="fa fa-linkedin"
+                aria-hidden="true"></i></button>
+        <button type="button" id="githubbtn" class="btn btn-outline-primary"><i class="fa fa-github"
+                aria-hidden="true"></i></button>
         <!-- <button type="button" class="btn btn-outline-primary"><img src="assets/hackerrank_logo.png" height="20px" 
                 width="20px" /></button>-->
     </section>
     <!--footer-->
     <footer class="luminous">
-        <hr/>  
+        <hr />
         <span>Designed and Built by Abhijeet Bhagat</span>
         <div>&copy; Abhijeet Bhagat
             <a href="https://github.com/bhagatabhijeet/portfolio">
@@ -118,6 +120,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            document.getElementById("linkedinbtn").onclick = function () {
+                window.open("https://www.linkedin.com/in/abhijeetbhagat/");
+
+            };
+            document.getElementById("githubbtn").onclick = function () {
+                window.open("https://github.com/bhagatabhijeet");
+            };
+
+        });
+    </script>
 </body>
 
 </html>
