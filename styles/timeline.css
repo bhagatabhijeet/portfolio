@@ -1,0 +1,21 @@
+.left-box{
+    width: 100%;
+    border: 2px solid cyan;
+    border-top-left-radius: 10px;
+    border-color: cyan transparent transparent cyan;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.right-box{
+    width: 100%;
+    border: 2px solid cyan;
+    border-top-right-radius: 10px;    
+    border-color: cyan cyan transparent transparent;
+    padding: 20px;
+    text-align: right;
+}
+.left-box:hover,.right-box:hover{
+    background-color: #090b1b;
+    box-shadow: 0 0 5px cyan;
+}
+

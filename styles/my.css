@@ -202,7 +202,7 @@ footer div a{
 
 .project-card{
     border:none;
-    background-color:#252845;
+    background-color:#090b1b;
 }
 
 .project-card-title{
@@ -229,7 +229,12 @@ footer div a{
 }
 
 .project-card:hover{
-    background-color: #2e3254;
+    background-color:#080916;
+    box-shadow: 0 0 5px,0 0 5px cyan ;
+}
+
+.jumbotron:hover{
+    background-color: #090b1b;
 }
 
 
