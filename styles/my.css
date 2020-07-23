@@ -203,6 +203,13 @@ footer div a{
 .project-card{
     border:none;
     background-color:#090b1b;
+    transition: ease-in-out;
+    transition-property: background-color,box-shadow;
+    transition-duration: 1500ms; /* vendorless fallback */
+    -o-transition-duration: 1500ms; /* opera */
+    -ms-transition: 1500ms; /* IE 10 */
+    -moz-transition-duration: 1500ms; /* Firefox */
+    -webkit-transition-duration: 1500ms; /*safari and chrome */
 }
 
 .project-card-title{
@@ -231,10 +238,37 @@ footer div a{
 .project-card:hover{
     background-color:#080916;
     box-shadow: 0 0 5px,0 0 5px cyan ;
+    transition: ease-in-out;
+    transition-property: background-color,box-shadow;
+    transition-duration: 250ms; /* vendorless fallback */
+    -o-transition-duration: 250ms; /* opera */
+    -ms-transition: 250ms; /* IE 10 */
+    -moz-transition-duration: 250ms; /* Firefox */
+    -webkit-transition-duration: 250ms; /*safari and chrome */
+}
+
+.jumbotron{
+    background-color: #31355a;
+    transition: ease-in-out;
+    transition-property: background-color;
+    transition-duration: 3000ms; /* vendorless fallback */
+    -o-transition-duration: 3000ms; /* opera */
+    -ms-transition: 3000ms; /* IE 10 */
+    -moz-transition-duration: 3000ms; /* Firefox */
+    -webkit-transition-duration: 3000ms; /*safari and chrome */
 }
 
 .jumbotron:hover{
     background-color: #090b1b;
+    transition-property: background-color;
+    transition: ease-in-out;
+    transition-duration: 1500ms;
+    -o-transition-duration: 1500ms; /* opera */
+    -ms-transition: 1500ms; /* IE 10 */
+    -moz-transition-duration: 1500ms; /* Firefox */
+    -webkit-transition-duration: 1500ms; /*safari and chrome */
+}
+    box-shadow: 0 0 5px;
 }
 
 

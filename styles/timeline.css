@@ -14,8 +14,26 @@
     padding: 20px;
     text-align: right;
 }
+
+.left-box, .right-box{
+    background-color: inherit;
+    transition: ease-in-out;
+    transition-property: background-color;
+    transition-duration: 1500ms; /* vendorless fallback */
+    -o-transition-duration: 1500ms; /* opera */
+    -ms-transition: 1500ms; /* IE 10 */
+    -moz-transition-duration: 1500ms; /* Firefox */
+    -webkit-transition-duration: 1500ms; /*safari and chrome */
+}
 .left-box:hover,.right-box:hover{
     background-color: #090b1b;
     box-shadow: 0 0 5px cyan;
+    transition: ease-in-out;
+    transition-property: background-color;
+    transition-duration: 1000ms; /* vendorless fallback */
+    -o-transition-duration: 1000ms; /* opera */
+    -ms-transition: 1000ms; /* IE 10 */
+    -moz-transition-duration: 1000ms; /* Firefox */
+    -webkit-transition-duration: 1000ms; /*safari and chrome */
 }
 
