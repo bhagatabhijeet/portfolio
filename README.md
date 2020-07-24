@@ -19,6 +19,7 @@ Deployed Site Url : https://bhagatabhijeet.github.io/portfolio/index.html
 </p>
 
 <div align="center">
+<img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/mainpagefullbrowser.png" alt="Main Page full browser Image"/>
 <img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/AboutMe.png" alt="about me"/>
 <img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/indexPage.png" width="250px" height="300px" alt="index page"/>
 <img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/contactMe.png" width="250px" height="300px" alt="contact me page"/>
