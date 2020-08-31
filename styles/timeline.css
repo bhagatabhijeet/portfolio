@@ -1,16 +1,16 @@
 .left-box{
     width: 100%;
-    border: 2px solid cyan;
+    border: 2px solid #007ced;
     border-top-left-radius: 10px;
-    border-color: cyan transparent transparent cyan;
+    border-color: #007ced transparent transparent #007ced;
     margin-bottom: 0px;
     padding: 20px;
 }
 .right-box{
     width: 100%;
-    border: 2px solid cyan;
+    border: 2px solid #007ced;
     border-top-right-radius: 10px;    
-    border-color: cyan cyan transparent transparent;
+    border-color: #007ced #007ced transparent transparent;
     padding: 20px;
     text-align: right;
 }
@@ -26,8 +26,9 @@
     -webkit-transition-duration: 1500ms; /*safari and chrome */
 }
 .left-box:hover,.right-box:hover{
-    background-color: #090b1b;
-    box-shadow: 0 0 5px cyan;
+    /* background-color: #090b1b; */
+    background-color: #007ced;
+    box-shadow: 0 0 5px #007ced;
     transition: ease-in-out;
     transition-property: background-color;
     transition-duration: 1000ms; /* vendorless fallback */

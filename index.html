@@ -26,16 +26,17 @@
 </head>
 
 <body>
+    <div id="particles-js"></div>
     <!-- topnav and customizations -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark nav-custom">
         <!--brand logo and Name-START-->
         <a class="navbar-brand" href="index.html">
-            <div id="logodiv">
-                <img src="assets/logo-inverse.png" alt="Abhijeet Bhagat" id="logo" height="10px">
-            </div>
+            <div id="logodiv"> 
+                A
+            </div> 
         </a>
         <a class="navbar-brand" href="index.html">
-            <div id="logodiv">
+            <div> 
                 <div class="head-name">ABHIJEET</div>
             </div>
         </a>
@@ -47,24 +48,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item" active>
-                    <a class="nav-link" href="about.html"><img src="assets/cust-bulltet.png" class="menuitem"
-                            height="10" /><span> About</span>
+                    <a class="nav-link" href="about.html"><span> About</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html"><img src="assets/cust-bulltet.png" class="menuitem"
-                            height="10" /><span> Portfolio</span>
+                    <a class="nav-link" href="portfolio.html"><span> Portfolio</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html"><img src="assets/cust-bulltet.png" class="menuitem"
-                            height="10" /><span> Contact</span>
+                    <a class="nav-link" href="contact.html"><span> Contact</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <!--Resume link disabled using disabled class-->
-                    <a class="nav-link disabled" href="#">
-                        <img src="assets/cust-bulltet.png" class="menuitem" height="10" />
+                    <a class="nav-link disabled" href="#">                        
                         <span class="mydisabled"> Resume</span>
                     </a>
                 </li>
@@ -77,15 +74,17 @@
         <div class="row">
             <div class="col-lg">
                 <main>
-                    <div class="luminous" style="margin-top: 2%;">Hi, my name is</div>
+                    <!-- <img src="assets/bw_trans.png" alt="Main Page Image of Abhijeet" class="float-left img-fluid rounded;" width="40%"/> -->
                     <div class="jumbotron">
                         <!--Jumbotron start-->
-                        <img src="assets/me.png" alt="Main Page Image of Abhijeet" class="float-right img-fluid rounded; width:150px;height:100px"/>
-                        <div style="font-family: 'Asap Condensed', sans-serif; font-size: 60px; color:whitesmoke">
+                        <!-- <h1>Abhijeet
+                            Bhagat</h1> -->
+                            <div class="luminous" style="text-align: center;">Hi, my name is</div>
+                        <div id="primary-title-name">
                             Abhijeet
                             Bhagat.
                         </div>
-                        <div class="secondary-title" style="margin: auto;">I build web applications.</div>
+                        <div class="secondary-title" style="color:#007ced;text-align: right;">I build web applications.</div>
                         <article>
                             I'm a software engineer based in Dublin, CA.
                             I am a <em>Full Stack Developer</em>, I build & design websites and web applications.
@@ -115,7 +114,7 @@
 
 
 
-    <div style="height: 40px;"></div>
+    <!-- <div style="height: 40px;"></div> -->
     <!--hack to add 40px to body so that contents behind sticky footer could be scrolled-->
     <footer class="luminous" id="mainfooter">
         <hr />
@@ -140,30 +139,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('#main-container').fadeOut(1000);
-            $('#main-container').fadeIn(3000);
-            $('#mainfooter').fadeOut(1000);
-            $('#mainfooter').fadeIn(2000);
-            $('#social-btns-main').css('display', 'flex');
-
-            document.getElementById("moreaboutme").onclick = function () {
-                location.href = "about.html";
-            };
-            document.getElementById("getintouch").onclick = function () {
-                location.href = "contact.html";
-            };
-            document.getElementById("linkedinbtn").onclick = function () {
-                window.open("https://www.linkedin.com/in/abhijeetbhagat/");
-
-            };
-            document.getElementById("githubbtn").onclick = function () {
-                window.open("https://github.com/bhagatabhijeet");
-            };
-
-        });
+    
+    <script src="assets/scripts/particles.js"></script>
+    <script src="assets/scripts/index.js">       
     </script>
 </body>
 

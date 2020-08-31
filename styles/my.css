@@ -1,15 +1,19 @@
 body{
-    background-color: #31355a;
-    color:#8892b0;
+    /* background-color: #31355a; */
+    background-color: black;
+    color:whitesmoke;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    /* height: 100%;
+    overflow: hidden; */
     
 }
 article{
-    color:#8892b0;
+    color:whitesmoke;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 1em;
 }
 .head5{
     color: whitesmoke;
@@ -18,17 +22,18 @@ article{
 #main-container{
     position: relative;      
     display: none;
+    width:99%;
+    margin-top: 0%;
+    height: 60%;
 }
 
 .container{
     position: relative;  
-  
+    width:99%;
+    margin-top: 0%;
+    height: 60%;
 }
-.jumbotron{
-    background: none;
-    border: 0.05px solid #888692;  
-    padding-bottom: 10px;   
-}
+
 .box{
     width: 40px;
     height: 40px;
@@ -45,7 +50,7 @@ li span{
     transition: font-size;
     transition-timing-function: ease-in-out;
     transition-duration: 100ms;
-    color:cyan;
+    color:whitesmoke;
 }
 
 .mydisabled{
@@ -53,17 +58,24 @@ li span{
 }
 
 li span:hover{    
-    font-size: 23px;
-    color:#8080ff;
+    /* font-size: 23px; */
+    color:#007ced;
 }
 #logo{
-    float: left;
-    width:45px;
-    height: 100%;
+    /* float: left; */
+    /* width:45px;
+    height: 10px; */
+    /* font-size: 30px;  */
+    /* color: white; */
+    /* background-color: #007ced; */
+    /* width: 30px;
+    height: 30px; */
+     /* border-radius: 50%; */
+     /* text-align: center; */
 }
 
 .head-name{
-    color: cyan;
+    color: whitesmoke;
     font-family: 'Asap Condensed', sans-serif;
     letter-spacing: 0.1rem;
     font-size:x-large;  
@@ -72,13 +84,14 @@ li span:hover{
 }
 
 .head-name:hover{
-    color: #8080ff;    
+    color: #007ced;    
 }
 .nav-custom{    
-    background-image: linear-gradient(#31355f,#31355a);    
+    /* background-image: linear-gradient(#31355f,#31355a);     */
+    background-color: black;
 }
 .luminous{
-    color: cyan;
+    color: whitesmoke;
 }
 
 .primary-title{
@@ -86,6 +99,13 @@ li span:hover{
     font-size: 40px; 
     color:whitesmoke;
 }
+
+.primary-title:hover{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px; 
+    color:#007ced;
+}
+
 .secondary-title{
     color:#ccd6f6;
     font-size: 50px;
@@ -97,16 +117,17 @@ main{
     margin-top: 30px;    
 }
 .btn, .btn-outline-primary, .btn-lg {
-    border-color: cyan !important;
-    color:cyan;
+    border-color: #007ced !important;
+    color:whitesmoke;
      
 }
 .btn:hover{
-    background-color: #8080ff;
+    background-color: transparent ;
+    color:#007ced;
 }
 
 .custom-toggler.navbar-toggler{
-    border-color: cyan;
+    border-color: whitesmoke;
 }
 
 .custom-toggler .navbar-toggler-icon{
@@ -124,42 +145,47 @@ main{
 #social-btns button,#social-btns-main button{
     margin:4px;
     border: none;
+    align-content: center;
 }
 
 footer{
     font-size: 13px;
     text-align: center;
     width:100%;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px;
     margin-top: 10px;
-    height:60px;
-    position: fixed;
+    height:60px; */
+    /* position: fixed; */
     bottom: 0px;  
-    background-color: #31355a;   
-    padding: 5px;  
+    background-color: #007ced ;   
+    /* padding: 5px;   */
 }
 
 /* footer for main page as it needs to be hidden at the start of anumation */
-#mainfooter{
+/* #mainfooter{
     font-size: 13px;
     text-align: center;
-    width:100%;
-    margin-bottom: 0px;
+    width:100%; */
+    /* margin-bottom: 0px;
     margin-top: 10px;
     height:60px;
-    display: none;  
-    position: fixed;
-    bottom: 0px;  
-    background-color: #31355a;   
-    padding: 5px;       
-}
+    display: none;   */
+    /* position: fixed; */
+    /* bottom: 0px;   */
+    /* background-color: #007ced ;    */
+    /* padding: 5px;        */
+/* } */
 
 footer hr, #mainfooter hr{
     width: 25%; 
     size: 0.5px;
     padding: 0px;
     margin-top: 0px; 
-    border-color:#888692;
+    border-color:whitesmoke;
+}
+
+footer a{
+    color:black;
 }
 
 #social-btns{    
@@ -180,7 +206,7 @@ footer hr, #mainfooter hr{
 }
 
 .hr-luminous{    
-    border-top:1px solid cyan;    
+    border-top:1px solid #007ced;    
 }
 
 
@@ -190,13 +216,13 @@ footer div a{
 
 .card{
     background:none;
-    border:0.5px solid cyan;
+    border:0.5px solid #007ced;
     margin-top:5%;    
 }
 
 .card-header
 {
-    color: cyan;
+    color: #007ced;
     font-size: 15px;
 }
 
@@ -237,7 +263,7 @@ footer div a{
 
 .project-card:hover{
     background-color:#080916;
-    box-shadow: 0 0 5px,0 0 5px cyan ;
+    box-shadow: 0 0 5px,0 0 5px #007ced ;
     transition: ease-in-out;
     transition-property: background-color,box-shadow;
     transition-duration: 250ms; /* vendorless fallback */
@@ -248,29 +274,55 @@ footer div a{
 }
 
 .jumbotron{
-    background-color: #31355a;
+    background-color: black;
     transition: ease-in-out;
+    border: 0.05px solid #007ced;
+    background: url("../assets/bw_trans.png") no-repeat;
+    background-size: contain;
+    padding-bottom: 0%;
+   
+    /*
     transition-property: background-color;
-    transition-duration: 3000ms; /* vendorless fallback */
-    -o-transition-duration: 3000ms; /* opera */
-    -ms-transition: 3000ms; /* IE 10 */
-    -moz-transition-duration: 3000ms; /* Firefox */
-    -webkit-transition-duration: 3000ms; /*safari and chrome */
+    transition-duration: 3000ms; vendorless fallback 
+    -o-transition-duration: 3000ms; opera 
+    -ms-transition: 3000ms; IE 10 
+    -moz-transition-duration: 3000ms; /* Firefox 
+    -webkit-transition-duration: 3000ms; /*safari and chrome 
+    */
 }
 
-.jumbotron:hover{
-    background-color: #090b1b;
+/* .jumbotron:hover{ */
+    /* background-color: #090b1b;
     transition-property: background-color;
     transition: ease-in-out;
-    transition-duration: 1500ms;
-    -o-transition-duration: 1500ms; /* opera */
-    -ms-transition: 1500ms; /* IE 10 */
-    -moz-transition-duration: 1500ms; /* Firefox */
-    -webkit-transition-duration: 1500ms; /*safari and chrome */
-}
-    box-shadow: 0 0 5px;
+    transition-duration: 1500ms; */
+    /* -o-transition-duration: 1500ms; opera */
+    /* -ms-transition: 1500ms; IE 10 */
+    /* -moz-transition-duration: 1500ms; Firefox */
+    /* -webkit-transition-duration: 1500ms; safari and chrome */
+
+    /* box-shadow: 0 0 5px; */
+/* } */
+
+#logodiv{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    /* color: white;*/
+    background-color: #007ced;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding:4px 4px;
+    /* vertical-align: middle; */
+    /* border:3px solid whitesmoke; */
+
 }
 
+#logodiv:hover{
+    background-color: whitesmoke;
+    color:#007ced;
+}
 
 /* folloing selectors for bootstrap Grid */
 .top5 { margin-top:5%; }
@@ -279,3 +331,29 @@ footer div a{
 .top15 { margin-top:15%; }
 .top17 { margin-top:17%; }
 .top30 { margin-top:30%; }
+
+#primary-title-name{
+    font-family: 'Asap Condensed', sans-serif; 
+    font-size: 70px;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 5%;
+}
+#particles-js{
+    position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  /* z-index: 5; */
+}
+
+@media only screen and (max-width:411px){
+    #primary-title-name{
+        margin-top: 55%;
+        text-align: center;        
+    }
+    .secondary-title{
+        text-align: center;
+    }
+}
