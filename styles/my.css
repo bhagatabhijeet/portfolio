@@ -1,13 +1,10 @@
-body{
-    /* background-color: #31355a; */
+body{    
     background-color: black;
     color:whitesmoke;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    /* height: 100%;
-    overflow: hidden; */
-    
+    font-family: Arial, Helvetica, sans-serif;    
 }
+
 article{
     color:whitesmoke;
     font-size: 15px;
@@ -15,6 +12,7 @@ article{
     text-align: center;
     margin-top: 1em;
 }
+
 .head5{
     color: whitesmoke;
 }
@@ -58,20 +56,7 @@ li span{
 }
 
 li span:hover{    
-    /* font-size: 23px; */
     color:#007ced;
-}
-#logo{
-    /* float: left; */
-    /* width:45px;
-    height: 10px; */
-    /* font-size: 30px;  */
-    /* color: white; */
-    /* background-color: #007ced; */
-    /* width: 30px;
-    height: 30px; */
-     /* border-radius: 50%; */
-     /* text-align: center; */
 }
 
 .head-name{
@@ -87,9 +72,9 @@ li span:hover{
     color: #007ced;    
 }
 .nav-custom{    
-    /* background-image: linear-gradient(#31355f,#31355a);     */
     background-color: black;
 }
+
 .luminous{
     color: whitesmoke;
 }
@@ -116,11 +101,13 @@ li span:hover{
 main{
     margin-top: 30px;    
 }
+
 .btn, .btn-outline-primary, .btn-lg {
     border-color: #007ced !important;
     color:whitesmoke;
      
 }
+
 .btn:hover{
     background-color: transparent ;
     color:#007ced;
@@ -151,30 +138,10 @@ main{
 footer{
     font-size: 13px;
     text-align: center;
-    width:100%;
-    /* margin-bottom: 0px;
-    margin-top: 10px;
-    height:60px; */
-    /* position: fixed; */
+    width:100%; 
     bottom: 0px;  
-    background-color: #007ced ;   
-    /* padding: 5px;   */
+    background-color: #007ced ;     
 }
-
-/* footer for main page as it needs to be hidden at the start of anumation */
-/* #mainfooter{
-    font-size: 13px;
-    text-align: center;
-    width:100%; */
-    /* margin-bottom: 0px;
-    margin-top: 10px;
-    height:60px;
-    display: none;   */
-    /* position: fixed; */
-    /* bottom: 0px;   */
-    /* background-color: #007ced ;    */
-    /* padding: 5px;        */
-/* } */
 
 footer hr, #mainfooter hr{
     width: 25%; 
@@ -202,7 +169,6 @@ footer a{
     margin-top: 5px;
     justify-content:center; 
     flex-wrap: wrap;
-   
 }
 
 .hr-luminous{    
@@ -242,6 +208,7 @@ footer div a{
     color:#007ced;
     font-size: 18px;
 }
+
 .project-card-text{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -280,43 +247,17 @@ footer div a{
     background: url("../assets/bw_trans.png") no-repeat;
     background-size: contain;
     padding-bottom: 0%;
-   
-    /*
-    transition-property: background-color;
-    transition-duration: 3000ms; vendorless fallback 
-    -o-transition-duration: 3000ms; opera 
-    -ms-transition: 3000ms; IE 10 
-    -moz-transition-duration: 3000ms; /* Firefox 
-    -webkit-transition-duration: 3000ms; /*safari and chrome 
-    */
 }
-
-/* .jumbotron:hover{ */
-    /* background-color: #090b1b;
-    transition-property: background-color;
-    transition: ease-in-out;
-    transition-duration: 1500ms; */
-    /* -o-transition-duration: 1500ms; opera */
-    /* -ms-transition: 1500ms; IE 10 */
-    /* -moz-transition-duration: 1500ms; Firefox */
-    /* -webkit-transition-duration: 1500ms; safari and chrome */
-
-    /* box-shadow: 0 0 5px; */
-/* } */
 
 #logodiv{
     font-family:Arial, Helvetica, sans-serif; 
     font-size: 20px; 
-    /* color: white;*/
     background-color: #007ced;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     text-align: center;
     padding:4px 4px;
-    /* vertical-align: middle; */
-    /* border:3px solid whitesmoke; */
-
 }
 
 #logodiv:hover{
@@ -339,13 +280,14 @@ footer div a{
     text-align: center;
     margin-top: 5%;
 }
+
+/* div for loading the particles animation */
 #particles-js{
-    position: absolute;
+  position: absolute;
   width: 100%;
   height: 100vh;
   top: 0;
-  left: 0;
-  /* z-index: 5; */
+  left: 0;  
 }
 
 @media only screen and (max-width:411px){

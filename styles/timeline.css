@@ -25,8 +25,8 @@
     -moz-transition-duration: 1500ms; /* Firefox */
     -webkit-transition-duration: 1500ms; /*safari and chrome */
 }
-.left-box:hover,.right-box:hover{
-    /* background-color: #090b1b; */
+
+.left-box:hover,.right-box:hover{    
     background-color: #007ced;
     box-shadow: 0 0 5px #007ced;
     transition: ease-in-out;
