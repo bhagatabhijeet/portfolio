@@ -21,8 +21,8 @@ Deployed Site Url : https://bhagatabhijeet.github.io/portfolio/index.html
 <div align="center">
 <img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/mainpagefullbrowser.png" alt="Main Page full browser Image"/>
 <img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/AboutMe.png" alt="about me"/>
-<img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/indexPage.png" width="250px" height="300px" alt="index page"/>
-<img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/contactMe.png" width="250px" height="300px" alt="contact me page"/>
+<img src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/ReadMeImages/portfolio.png"  alt="portfolio page"/>
+
 </div> 
 
 
@@ -57,3 +57,7 @@ forking the repo is absolutely fine. If you happen to like the overall scheme an
 * more projects to be added.
 * Resume pdf navbar menu to be enabled. Currently the **RESUME** menu is disabled on purpose.
 * Add color scheme details and Grid, Navbar, Card selector's details and how to override them. This will help people who fork.
+
+# Courtesy
+* particle.js -   MIT license Author : [VincentGarreau](github.com/VincentGarreau/particles.js) 
+* MIT license: http://opensource.org/licenses/MIT
