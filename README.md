@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/newlogo.png" width="100" />
 </div>
 <h1 align="center">
-  Abhijeet Bhagat's Portfolio v1.0
+  Abhijeet Bhagat's Portfolio v2.0
 </h1>
 <p align="center">
   This is the v1.0 of my profile. 
