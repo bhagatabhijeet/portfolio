@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/logo-inverse.png" width="100" />
+  <img alt="Logo" src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/newlogo.png" width="100" />
 </div>
 <h1 align="center">
   Abhijeet Bhagat's Portfolio v1.0
