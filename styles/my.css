@@ -215,20 +215,20 @@ footer div a{
 }
 
 .card{
-    background:none;
+    background:#090b1b;
     border:0.5px solid #007ced;
     margin-top:5%;    
 }
 
 .card-header
 {
-    color: #007ced;
+    color: whitesmoke;
     font-size: 15px;
 }
 
 .project-card{
-    border:none;
-    background-color:#090b1b;
+    border:1px solid;
+    background-color:black;
     transition: ease-in-out;
     transition-property: background-color,box-shadow;
     transition-duration: 1500ms; /* vendorless fallback */
@@ -239,7 +239,7 @@ footer div a{
 }
 
 .project-card-title{
-    color:whitesmoke;
+    color:#007ced;
     font-size: 18px;
 }
 .project-card-text{
@@ -262,7 +262,7 @@ footer div a{
 }
 
 .project-card:hover{
-    background-color:#080916;
+    background-color:#262e94;
     box-shadow: 0 0 5px,0 0 5px #007ced ;
     transition: ease-in-out;
     transition-property: background-color,box-shadow;
