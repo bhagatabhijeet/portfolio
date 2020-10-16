@@ -6,7 +6,7 @@ import NavbarPage from "./components/navbarPage";
 import ParticlesComponent from "./components/particles";
 import $ from "jquery";
 import { GithubButton, LinkedinButton } from "./components/customComponents";
-import { MDBJumbotron, MDBBtn, MDBCol, MDBRow, MDBContainer } from "mdbreact";
+import { MDBJumbotron, MDBCol, MDBRow, MDBContainer } from "mdbreact";
 
 /**
  * Home Component
