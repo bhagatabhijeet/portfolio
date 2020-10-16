@@ -2,11 +2,12 @@
   <img alt="Logo" src="https://github.com/bhagatabhijeet/portfolio/raw/master/assets/newlogo.png" width="100" />
 </div>
 <h1 align="center">
-  Abhijeet Bhagat's Portfolio v2.0
+  Abhijeet Bhagat's Portfolio v3.0
 </h1>
 <p align="center">
-  This is the v1.0 of my profile. 
+  This is the v3.0 of my profile. 
   The profile is hosted at: Git Hub Pages.  
+  v3.0 is React Version of the Porfolio
 </p>
 
 Git Hub Repo : https://github.com/bhagatabhijeet/portfolio
@@ -15,7 +16,7 @@ Git Hub Repo : https://github.com/bhagatabhijeet/portfolio
 Deployed Site Url : https://bhagatabhijeet.github.io/portfolio/index.html
 
 <p align="center">
-  Previous iterations: v1.0  
+  Previous iterations: v2.0  
 </p>
 
 <div align="center">
