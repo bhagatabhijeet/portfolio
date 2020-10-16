@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./styles/my.css";
-import "./styles/images.css"
+import "./styles/images.css";
 import NavbarPage from "./components/navbarPage";
-import ParticlesComponent  from './components/particles';
-import $ from 'jquery';
-import {GithubButton,LinkedinButton}  from './components/customComponents';
-import { MDBJumbotron,MDBBtn,MDBCol,MDBRow, MDBContainer } from "mdbreact";
+import ParticlesComponent from "./components/particles";
+import $ from "jquery";
+import { GithubButton, LinkedinButton } from "./components/customComponents";
+import { MDBJumbotron, MDBBtn, MDBCol, MDBRow, MDBContainer } from "mdbreact";
 
 /**
  * Home Component
@@ -13,25 +14,23 @@ import { MDBJumbotron,MDBBtn,MDBCol,MDBRow, MDBContainer } from "mdbreact";
  */
 
 function Home() {
-  useEffect(()=>{
-    
-      $('#main-container').fadeOut(1000);
-      $('#main-container').fadeIn(3000);
-      $('#mainfooter').fadeOut(1000);
-      $('#mainfooter').fadeIn(2000);
-      $('#social-btns-main').css('display', 'flex');
-    
-  },[]);
+  useEffect(() => {
+    $("#main-container").fadeOut(1000);
+    $("#main-container").fadeIn(3000);
+    $("#mainfooter").fadeOut(1000);
+    $("#mainfooter").fadeIn(2000);
+    $("#social-btns-main").css("display", "flex");
+  }, []);
   return (
-   <React.Fragment>
-      <ParticlesComponent />  
-      <NavbarPage links={["about", "projects", "contact","resume"]}/>
+    <React.Fragment>
+      <ParticlesComponent />
+      <NavbarPage links={["about", "projects", "contact", "resume"]} />
       <MDBContainer id="main-container">
         <MDBRow>
           <MDBCol>
             <main>
               <MDBJumbotron>
-                {/* Jumbotron start*/} 
+                {/* Jumbotron start*/}
                 <div className="luminous" style={{ textAlign: "center" }}>
                   Hi, my name is
                 </div>
@@ -44,26 +43,31 @@ function Home() {
                 </div>
                 <article>
                   I'm a software engineer based in Dublin, CA. I am a{" "}
-                  <em>Full Stack Developer</em>, I build &#38; design websites and
-                  web applications. I build, test and deploy applications.
+                  <em>Full Stack Developer</em>, I build &#38; design websites
+                  and web applications. I build, test and deploy applications.
                 </article>
                 <div id="contactmebtn">
-                  <MDBBtn outline size="lg"
+                  <Link
                     id="moreaboutme"
-                    href="/portfolio/about"
+                    type="button"
+                    className="btn btn-outline-primary btn-lg"
+                    to='/portfolio/about'
                   >
                     More About Me...
-                  </MDBBtn>
-                  <MDBBtn outline size="lg"
+                  </Link>
+                  
+                  <Link                    
+                    size="lg"
                     id="getintouch"
-                    href="/portfolio/contact"
+                    className="btn btn-outline-primary btn-lg"
+                    to="/portfolio/contact"
                   >
                     Get In Touch...
-                  </MDBBtn>
+                  </Link>
                 </div>
                 <section id="social-btns-main">
-                  <LinkedinButton />                
-                  <GithubButton />    
+                  <LinkedinButton />
+                  <GithubButton />
                 </section>
               </MDBJumbotron>
               {/* Jumbotron end */}
