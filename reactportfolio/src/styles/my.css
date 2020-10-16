@@ -1,0 +1,315 @@
+body{    
+    background-color: black;
+    color:whitesmoke;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+article{
+    color:rgb(167, 160, 160);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.head5{
+    color: whitesmoke;
+}
+
+.head5:hover{
+  color: #007ced;
+}
+
+#main-container{
+    position: relative;      
+    display: none;
+    width:99%;
+    margin-top: 0%;
+    height: 60%;
+}
+
+.container{
+    position: relative;  
+    width:99%;
+    margin-top: 0%;
+    height: 60%;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+    border:wheat 1px solid;
+    background-color: slateblue;
+    margin: 5px;
+}
+
+.div-height-50{
+    height: 20px;
+}
+
+li span{
+    transition: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: 100ms;
+    color:whitesmoke;
+}
+
+.mydisabled{
+    color:gray;
+}
+
+li span:hover{    
+    color:#007ced;
+}
+
+.head-name{
+    color: whitesmoke;
+    font-family: 'Asap Condensed', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size:x-large;  
+    transition-timing-function: ease-in-out;
+    transition-duration: 100ms;
+}
+
+.head-name:hover{
+    color: #007ced;    
+}
+.nav-custom{    
+    background-color:black;
+}
+
+.luminous{
+    color: #007ced;    
+}
+
+.primary-title{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px; 
+    color:whitesmoke;
+}
+
+.primary-title:hover{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 40px; 
+    color:#007ced;
+}
+
+.secondary-title{
+    color:#ccd6f6;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin-top: 5px;    
+}
+
+.btn, .btn-outline-primary, .btn-lg {
+    border-color: #007ced !important;
+    color:whitesmoke;
+     
+}
+
+.btn:hover{
+    background-color: transparent ;
+    color:#007ced;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: whitesmoke;
+}
+
+.custom-toggler .navbar-toggler-icon{
+    background-image: url( 
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 252, 224, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+#contactmebtn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content:space-around;      
+}
+
+#social-btns button,#social-btns-main button{
+    margin:4px;
+    border: none;
+    align-content: center;
+}
+
+footer{
+    font-size: 13px;
+    text-align: center;
+    width:100%; 
+    bottom: 0px;  
+    background-color: #007ced ;     
+}
+
+footer hr, #mainfooter hr{
+    width: 25%; 
+    size: 0.5px;
+    padding: 0px;
+    margin-top: 0px; 
+    border-color:whitesmoke;
+}
+
+footer a{
+    color:black;
+}
+
+#social-btns{    
+    display: flex;
+    flex-direction: row;    
+    justify-content:center; 
+    flex-wrap: wrap;
+   
+}
+
+#social-btns-main{    
+    display: none;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content:center; 
+    flex-wrap: wrap;
+}
+
+.hr-luminous{    
+    border-top:1px solid #007ced;    
+}
+
+
+footer div a{
+    margin-left: 10px;
+}
+
+.card{
+    background:#090b1b;
+    border:0.5px solid #007ced;
+    margin-top:5%;    
+}
+
+.card-header
+{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.project-card{
+    border:1px solid;
+    background-color:black;
+    transition: ease-in-out;
+    transition-property: background-color,box-shadow;
+    transition-duration: 1500ms; /* vendorless fallback */
+    -o-transition-duration: 1500ms; /* opera */
+    -ms-transition: 1500ms; /* IE 10 */
+    -moz-transition-duration: 1500ms; /* Firefox */
+    -webkit-transition-duration: 1500ms; /*safari and chrome */
+}
+
+.project-card-title{
+    color:#007ced;
+    font-size: 18px;
+}
+
+.project-card-text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.project-card-footer-text{
+    font-size: 14px;
+    font-family: monospace;    
+}
+
+.project-card img{
+    opacity: 0.9;   
+}
+
+.project-card img:hover{
+    opacity: 1;
+}
+
+.project-card:hover{
+    background-color:#262e94;
+    box-shadow: 0 0 5px,0 0 5px #007ced ;
+    transition: ease-in-out;
+    transition-property: background-color,box-shadow;
+    transition-duration: 250ms; /* vendorless fallback */
+    -o-transition-duration: 250ms; /* opera */
+    -ms-transition: 250ms; /* IE 10 */
+    -moz-transition-duration: 250ms; /* Firefox */
+    -webkit-transition-duration: 250ms; /*safari and chrome */
+}
+
+.jumbotron{
+    background-color: black;
+    transition: ease-in-out;
+    border: 0.05px solid #007ced;
+    background: url("../images/bw_trans.png") no-repeat;
+    background-size: contain;
+    padding-bottom: 0%;
+    /* box-shadow: 3px 3px 5px whitesmoke; */
+    /* box-shadow: 3px 3px 2px 2px whitesmoke; */
+}
+
+#logodiv{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    background-color: #007ced;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding:4px 4px;
+    color:whitesmoke;
+}
+
+#logodiv:hover{
+    background-color: whitesmoke;
+    color:#007ced;
+}
+
+/* folloing selectors for bootstrap Grid */
+.top5 { margin-top:5%; }
+.top7 { margin-top:7%; }
+.top10 { margin-top:10%; }
+.top15 { margin-top:15%; }
+.top17 { margin-top:17%; }
+.top30 { margin-top:30%; }
+
+#primary-title-name{
+    font-family: 'Asap Condensed', sans-serif; 
+    font-size: 70px;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 5%;
+    background-image: linear-gradient(whitesmoke,white,#007ced);
+    background-size: 100%;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+/* div for loading the particles animation */
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;  
+}
+
+@media only screen and (max-width:411px){
+    #primary-title-name{
+        margin-top: 55%;
+        text-align: center;        
+    }
+    .secondary-title{
+        text-align: center;
+    }
+}
