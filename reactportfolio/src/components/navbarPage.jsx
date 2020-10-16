@@ -34,7 +34,7 @@ class NavbarPage extends Component {
               {this.props.links.map(navitem => {
                  return(
                   <MDBNavItem key={navitem}>
-                  <MDBNavLink to={`/${navitem}`}>
+                  <MDBNavLink to={`/portfolio/${navitem}`}>
                     <span> {navitem.charAt(0).toUpperCase()+ navitem.slice(1)}</span>
                   </MDBNavLink>
                 </MDBNavItem>

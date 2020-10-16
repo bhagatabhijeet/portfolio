@@ -50,13 +50,13 @@ function Home() {
                 <div id="contactmebtn">
                   <MDBBtn outline size="lg"
                     id="moreaboutme"
-                    href="/about"
+                    href="/portfolio/about"
                   >
                     More About Me...
                   </MDBBtn>
                   <MDBBtn outline size="lg"
                     id="getintouch"
-                    href="/contact"
+                    href="/portfolio/contact"
                   >
                     Get In Touch...
                   </MDBBtn>
