@@ -51,7 +51,7 @@ function Home() {
                     id="moreaboutme"
                     type="button"
                     className="btn btn-outline-primary btn-lg"
-                    to='/portfolio/about'
+                    to='/about'
                   >
                     More About Me...
                   </Link>
@@ -60,7 +60,7 @@ function Home() {
                     size="lg"
                     id="getintouch"
                     className="btn btn-outline-primary btn-lg"
-                    to="/portfolio/contact"
+                    to="/contact"
                   >
                     Get In Touch...
                   </Link>

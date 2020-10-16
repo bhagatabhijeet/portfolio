@@ -22,10 +22,10 @@ class NavbarPage extends Component {
         <MDBNavbar
           expand="md"
           className="sticky-top nav-custom">                    
-            <MDBNavLink to="/portfolio">
+            <MDBNavLink to="/">
               <div id="logodiv">A</div>
               </MDBNavLink>
-            <MDBNavLink to="/portfolio">
+            <MDBNavLink to="/">
               <div className="head-name">ABHIJEET</div>
               </MDBNavLink>            
           <MDBNavbarToggler onClick={this.toggleCollapse} className="custom-toggler"/>
@@ -34,7 +34,7 @@ class NavbarPage extends Component {
               {this.props.links.map(navitem => {
                  return(
                   <MDBNavItem key={navitem}>
-                  <MDBNavLink to={`/portfolio/${navitem}`}>
+                  <MDBNavLink to={`/${navitem}`}>
                     <span> {navitem.charAt(0).toUpperCase()+ navitem.slice(1)}</span>
                   </MDBNavLink>
                 </MDBNavItem>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router,Route,Switch } from "react-router-dom";
+import { BrowserRouter as Router,Route,Switch,HashRouter } from "react-router-dom";
 // import './App.css';
 import "./styles/my.css";
 import "./styles/images.css"
@@ -14,17 +14,17 @@ import Resume from "./Resume";
 function App() {  
   return (    
    <React.Fragment>
-      <Router>
+      <HashRouter>
         <Switch>
-        <Route exact path="/portfolio" component={Home} />        
-        <Route path="/portfolio/about" component={About} />        
-        <Route path="/portfolio/projects" component={Projects} />        
-        <Route path="/portfolio/contact" component={Contact} />   
-        <Route path="/portfolio/thankyou" component={ThankYou} />  
-        <Route path="/portfolio/resume" component={Resume} />    
+        <Route exact path="/" component={Home} />        
+        <Route exact path="/about" component={About} />        
+        <Route exact path="/projects" component={Projects} />        
+        <Route exact path="/contact" component={Contact} />   
+        <Route exact path="/thankyou" component={ThankYou} />  
+        <Route exact path="/resume" component={Resume} />    
         </Switch>
         <Footer />
-    </Router>
+    </HashRouter>
     </React.Fragment>
   );
 }
