@@ -22,10 +22,10 @@ class NavbarPage extends Component {
         <MDBNavbar
           expand="md"
           className="sticky-top nav-custom">                    
-            <MDBNavLink to="/">
+            <MDBNavLink to="/portfolio">
               <div id="logodiv">A</div>
               </MDBNavLink>
-            <MDBNavLink to="/">
+            <MDBNavLink to="/portfolio">
               <div className="head-name">ABHIJEET</div>
               </MDBNavLink>            
           <MDBNavbarToggler onClick={this.toggleCollapse} className="custom-toggler"/>
