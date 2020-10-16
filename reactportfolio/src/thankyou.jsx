@@ -7,7 +7,7 @@ import NavbarPage from "./components/navbarPage";
 export default function ThankYou(){
   return (
     <React.Fragment>
-    <NavbarPage links={["about", "portfolio", "resume"]} />
+    <NavbarPage links={["about", "projects", "resume"]} />
 <MDBContainer class="container">
         {/* <container Start */}
         <MDBRow>

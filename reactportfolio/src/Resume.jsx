@@ -10,7 +10,7 @@ import PDFViewer from "./components/pdfViewer";
 function Resume() {
   return (
     <React.Fragment>
-      <NavbarPage links={["about", "portfolio", "contact"]} />
+      <NavbarPage links={["about", "projects", "contact"]} />
       <MDBContainer>     
       <PDFViewer pdf={resume}/>      
       </MDBContainer>

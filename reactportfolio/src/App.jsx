@@ -6,7 +6,7 @@ import "./styles/images.css"
 import Footer from "./components/footer";
 import About from './About';
 import Home from './Home';
-import Portfolio from "./Portfolio";
+import Projects from "./Projects";
 import Contact from "./Contact";
 import ThankYou from "./thankyou";
 import Resume from "./Resume";
@@ -18,7 +18,7 @@ function App() {
         <Switch>
         <Route exact path="/" component={Home} />        
         <Route path="/about" component={About} />        
-        <Route path="/portfolio" component={Portfolio} />        
+        <Route path="/projects" component={Projects} />        
         <Route path="/contact" component={Contact} />   
         <Route path="/thankyou" component={ThankYou} />  
         <Route path="/resume" component={Resume} />    

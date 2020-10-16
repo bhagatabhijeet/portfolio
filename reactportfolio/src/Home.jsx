@@ -25,7 +25,7 @@ function Home() {
   return (
    <React.Fragment>
       <ParticlesComponent />  
-      <NavbarPage links={["about", "portfolio", "contact","resume"]}/>
+      <NavbarPage links={["about", "projects", "contact","resume"]}/>
       <MDBContainer id="main-container">
         <MDBRow>
           <MDBCol>

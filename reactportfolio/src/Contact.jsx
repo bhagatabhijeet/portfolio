@@ -13,7 +13,7 @@ import {
 function Contact() {
   return (
     <React.Fragment>
-      <NavbarPage links={["about", "portfolio", "resume"]} />
+      <NavbarPage links={["about", "projects", "resume"]} />
       <MDBContainer>
         <MDBRow>
           <MDBCol md="6">

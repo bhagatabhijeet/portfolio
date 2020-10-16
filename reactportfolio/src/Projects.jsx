@@ -11,7 +11,7 @@ import workdayschedulerImage from "./images/Workday_Scheduler_demo-min.gif";
 import RPS from "./images/RockPaperScissors.png"
 import cqdemo from "./images/CodeQuizDemo.gif"
 
-function Portfolio() {
+function Projects() {
   return (
     <React.Fragment>
       <NavbarPage links={["about", "contact", "resume"]} />
@@ -112,4 +112,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;

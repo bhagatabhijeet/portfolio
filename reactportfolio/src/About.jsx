@@ -1,5 +1,4 @@
 import React from "react";
-// import './App.css';
 import "./styles/my.css";
 import "./styles/images.css";
 import NavbarPage from "./components/navbarPage";
@@ -18,7 +17,7 @@ import mainimg from "./images/abhi2.png";
 function About() {
   return (
     <React.Fragment>
-      <NavbarPage links={["portfolio", "contact", "resume"]} />
+      <NavbarPage links={["projects", "contact", "resume"]} />
       <MDBContainer className="container">
         <MDBRow>
           <MDBCol md="5">
